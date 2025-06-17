@@ -11,6 +11,7 @@ header {
   color: black;
   text-align: center;
   padding: 1rem;
+  width: 100%;
 }
 
 .container {
@@ -20,9 +21,13 @@ header {
 }
 
 .sidebar, .properties {
+  
   width: 20%;
   padding: 1rem;
   background: #f1f1f1;
+   overflow: auto;
+
+
 }
 
 .canvas {
@@ -33,6 +38,7 @@ header {
   position: relative;
   background: white;
   flex-wrap: wrap;
+   overflow: auto;
 }
 
 .draggable {
